@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-size: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease-in-out;
+}
+a:hover {
+  color: #808080;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.container hr {
+  margin-bottom: 40px;
+}
+.navbar {
+  font-size: 1.1rem;
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.home .home-info {
+  display: flex;
+  justify-content: space-between;
+}
+.home .home-info .personal-name {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.home img {
+  margin-top: 40px;
+}
+.about-me {
+  margin: 50px 0;
+  background: #a79fa7;
+  text-align: center;
+}
+.skills {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.сontacts {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  font-size: 1rem;
+  transition: 0.3s;
+}
+.btn:hover {
+  font-size: 1.3rem;
+}
